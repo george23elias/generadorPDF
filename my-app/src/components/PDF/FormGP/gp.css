@@ -1,0 +1,105 @@
+.ContainerGP {
+  width: 90vw;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+.GPContenedor {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.GPContenedor h2 {
+  font-size: 1.5rem;
+}
+.GPContenedor input {
+  border-radius: 100rem;
+  border: none;
+  width: 70%;
+}
+/*------- GP3 --------  */
+.GP3 {
+  grid-column: 1 / span 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.GP3 h2 {
+  font-weight: bold;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.GP3_H {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  align-items: center;
+}
+.GP3_H h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.GP3_H input {
+  font-size: 1rem;
+  border-radius: 5rem;
+  border: none;
+  padding: 3px;
+}
+/*------- GP4 --------  */
+.GP4 {
+  grid-column: 1 / span 2;
+}
+.GP4 h2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+/* .GP4Contenedor {
+} */
+.GP4Contenedor1 {
+  display: flex;
+  justify-content: space-between;
+}
+.GP4Contenedor1 h2 {
+  font-size: 1.3rem;
+}
+.GP4Contenedor1 div {
+  display: flex;
+  gap: 6rem;
+}
+.GP4Contenedor1 div h2 {
+  width: 2.5rem;
+  height: 2rem;
+}
+.GP4Contenedor2 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+}
+.GP4Contenedor2 h2 {
+  font-weight: normal;
+  font-size: 1rem;
+}
+.GP4Contenedor2 div {
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+}
+.GP4Contenedor2 div input {
+  width: 2.5rem;
+  height: 2rem;
+
+  font-size: 0.8rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}

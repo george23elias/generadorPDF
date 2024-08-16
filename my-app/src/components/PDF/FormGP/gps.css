@@ -1,0 +1,84 @@
+:root {
+  --Title-Primario: 1.5rem;
+  --Title-Secundario: 1.3rem;
+  --Title-tecero: 1rem;
+}
+
+.GPS5 {
+  grid-column: 1 / span 2;
+}
+.GPS5 h2 {
+  font-size: var(--Title-Primario);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.GPS5_Cotenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--Title-Secundario);
+  font-weight: normal;
+  gap: 2rem;
+}
+.GPS5_Cotenedor h2 {
+  font-size: var(--Title-Secundario);
+  width: 100%;
+  
+  text-align: start;
+}
+.GPS5_SubTitle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.GPS5_SubTitle h2 {
+  font-weight: bold;
+  font-size: var(--Title-tecero);
+  
+}
+.GPS5_SubTitle div {
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+}
+.GPS5_SubTitle div h2 {
+  font-weight: normal;
+}
+.GPS5_Tercero {
+  display: flex;
+  gap: 3rem;
+}
+.GPS5_Tercero h2 {
+  width: 2.5rem;
+  height: 2rem;
+  text-align: center;
+}
+
+/* ----Contenedor 2 ------ */
+
+.GPS5_Cotenedor2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--Title-Secundario);
+  font-weight: normal;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.GPS5_Cotenedor2 h2 {
+  font-size: var(--Title-tecero);
+  width: 100%;
+  text-align: start;
+  font-weight: normal;
+
+}
+
+.GPS5_Cotenedor2 .GPS5_Tercero input {
+  width: 2.5rem;
+  height: 2rem;
+  font-size: 0.8rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
