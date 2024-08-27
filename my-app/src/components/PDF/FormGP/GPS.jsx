@@ -162,11 +162,183 @@ const GPS6 = () => {
   );
 };
 
+const GPS7 = () => {
+  return (
+    <div className="GPS5">
+      <div className="GPS5_Cotenedor">
+        <h2>ABASTECIMIENTO DE COMBUSTIBLE A LA AERONAVE</h2>
+        <div className="GPS5_SubTitle">
+          <h2>INSPECCIONADO:</h2>
+          <div>
+            <h2>Si:</h2>
+            <input type="checkbox" />
+          </div>
+          <div>
+            <h2>No:</h2>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className="GPS5_Tercero">
+          <h2>S</h2>
+          <h2>I</h2>
+          <h2>N/A</h2>
+          <h2>N/R</h2>
+        </div>
+      </div>
+      {/* ----Contenedor 2 ------ */}
+      <div className="GPS5_Cotenedor2">
+        <h2>Vehículo situado en posición correcta RAD24 24.101) G) 1) 4) 7)</h2>
+        <div className="GPS5_Tercero">
+          <input type="button" value="x" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+        </div>
+      </div>
+      {/* ----Contenedor 2 ------ */}
+      <div className="GPS5_Cotenedor2">
+        <h2>Vehículo inmovilizado RAD24 24.101) G) 2)</h2>
+        <div className="GPS5_Tercero">
+          <input type="button" value="x" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const GPS8 = () => {
+  return (
+    <div className="GPS5">
+      <div className="GPS5_Cotenedor">
+        <h2>SALIDA DE AERONAVE</h2>
+        <div className="GPS5_SubTitle">
+          <h2>INSPECCIONADO:</h2>
+          <div>
+            <h2>Si:</h2>
+            <input type="checkbox" />
+          </div>
+          <div>
+            <h2>No:</h2>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className="GPS5_Tercero">
+          <h2>S</h2>
+          <h2>I</h2>
+          <h2>N/A</h2>
+          <h2>N/R</h2>
+        </div>
+      </div>
+      {/* ----Contenedor 2 ------ */}
+      <div className="GPS5_Cotenedor2">
+        <h2>Equipos de apoyo terreste retirados RAD24 24.73 A) B) 1)</h2>
+        <div className="GPS5_Tercero">
+          <input type="button" value="x" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+        </div>
+      </div>
+      {/* ----Contenedor 2 ------ */}
+      <div className="GPS5_Cotenedor2">
+        <h2>
+          Barra de Empuje y el Push Tractor conectados 10 mins antes CA-1400-07
+          9.0) 9.12) B)
+        </h2>
+        <div className="GPS5_Tercero">
+          <input type="button" value="x" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+        </div>
+      </div>
+      {/* ----Contenedor 2 ------ */}
+      <div className="GPS5_Cotenedor2">
+        <h2>Posición libre de F.O.D. RAD24 24.15 A)</h2>
+        <div className="GPS5_Tercero">
+          <input type="button" value="x" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+        </div>
+      </div>
+      {/* ----Contenedor 2 ------ */}
+      <div className="GPS5_Cotenedor2">
+        <h2>Instrucción y guia de señalero a la aeronave RAD24 24.79 E)</h2>
+        <div className="GPS5_Tercero">
+          <input type="button" value="x" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+        </div>
+      </div>
+      {/* ----Contenedor 2 ------ */}
+      <div className="GPS5_Cotenedor2">
+        <h2>Puente de embarque retraido RAD24 24.79 C) 6)</h2>
+        <div className="GPS5_Tercero">
+          <input type="button" value="x" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+        </div>
+      </div>
+      {/* ----Contenedor 2 ------ */}
+      <div className="GPS5_Cotenedor2">
+        <h2>Equipos de tierra parqueados RAD24 24.73 A) B) 1)</h2>
+        <div className="GPS5_Tercero">
+          <input type="button" value="x" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+        </div>
+      </div>
+      {/* ----Contenedor 2 ------ */}
+      <div className="GPS5_Cotenedor2">
+        <h2>Conos y calzos retirados RAD24 24.79 C) 5) 24.81 B) 3) i) ii)</h2>
+        <div className="GPS5_Tercero">
+          <input type="button" value="x" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+        </div>
+      </div>
+      {/* ----Contenedor 2 ------ */}
+      <div className="GPS5_Cotenedor2">
+        <h2>
+          Procedimiento de remolque y desconexión de la Barra de Empuje RAD24
+          24.81 B) 1) 3)
+        </h2>
+        <div className="GPS5_Tercero">
+          <input type="button" value="x" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+        </div>
+      </div>
+      {/* ----Contenedor 2 ------ */}
+      <div className="GPS5_Cotenedor2">
+        <h2>Posición organizada, limpia y libre de equipos RAD24 24.15 A)</h2>
+        <div className="GPS5_Tercero">
+          <input type="button" value="x" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+          <input type="button" value="" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
 function GPS() {
   return (
     <>
       <GPS5 />
       <GPS6 />
+      <GPS7 />
+      <GPS8 />
     </>
   );
 }

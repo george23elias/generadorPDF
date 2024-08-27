@@ -1,6 +1,7 @@
 import React from "react";
 import "./gp.css";
-import GPS from './GPS'
+import GPS from "./GPS";
+import GPSF from "./GPSF";
 
 const GP3 = () => {
   return (
@@ -105,6 +106,7 @@ function GP() {
       <GP3 />
       <GP4 />
       <GPS />
+      <GPSF />
     </div>
   );
 }

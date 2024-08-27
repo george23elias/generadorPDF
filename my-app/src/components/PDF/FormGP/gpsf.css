@@ -1,0 +1,81 @@
+.Container_GPSF {
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Container_GPSF table {
+  width: 90%;
+  border: 1px solid black;
+}
+.Container_GPSF table thead {
+  position: relative;
+}
+.Container_GPSF table thead button {
+  position: absolute;
+  font-size: 0.8rem;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 1rem;
+  width: 4rem;
+  text-align: center;
+  font-weight: normal;
+  height: 3rem;
+  position: absolute;
+  top: 50%;
+  left: -2.5rem;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  background-color: aqua;
+}
+
+.Container_GPSF table thead th {
+  font-size: 1rem;
+  border: 1px solid black;
+  width: 11.1%;
+  font-weight: 600;
+  height: 5rem;
+}
+.Container_GPSF table thead th span {
+  font-size: 0.6rem;
+}
+/* ----- thbody -------  */
+
+.Container_GPSF table tbody tr {
+  position: relative;
+}
+
+.Container_GPSF table tbody tr td {
+  font-size: 0.8rem;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 13%;
+  text-align: center;
+  font-weight: normal;
+  height: 3rem;
+}
+
+.Container_GPSF table tbody tr button {
+  position: absolute;
+  font-size: 0.8rem;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 1rem;
+  width: 4rem;
+  text-align: center;
+  font-weight: normal;
+  height: 3rem;
+  position: absolute;
+  top: 50%;
+  right: -6.5rem;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  background-color: red;
+
+  color: white;
+}
