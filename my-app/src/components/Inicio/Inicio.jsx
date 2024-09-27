@@ -7,7 +7,7 @@ const Head = () => {
   return (
     <div className="Inicio_Head">
       <div className="Head_name">
-        <h1>Jorge Elias Concepcion L.</h1>
+        <h1>Lisa Pamela Concepcion</h1>
       </div>
       <div className="Head_img">
         <img src={Perfil} alt="#" />
@@ -25,7 +25,7 @@ const Body = () => {
         <button>PDF 3</button>
       </div>
       <div>
-        <GP />
+        {/* <GP /> */}
       </div>
     </div>
   );
@@ -44,7 +44,7 @@ function Inicio() {
     <div className="ContainerInicio">
       <Head />
       <Body />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
